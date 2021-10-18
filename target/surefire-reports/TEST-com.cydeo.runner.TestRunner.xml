@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cydeo.runner.TestRunner" time="4.345" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kseniiamazanko/Desktop/cucumber-project-b23/target/test-classes:/Users/kseniiamazanko/Desktop/cucumber-project-b23/target/classes:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-java/6.11.0/cucumber-java-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-core/6.11.0/cucumber-core-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-gherkin/6.11.0/cucumber-gherkin-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.11.0/cucumber-gherkin-messages-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-plugin/6.11.0/cucumber-plugin-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/docstring/6.11.0/docstring-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/kseniiamazanko/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-junit/6.11.0/cucumber-junit-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/kseniiamazanko/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/kseniiamazanko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kseniiamazanko/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/kseniiamazanko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/kseniiamazanko/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/kseniiamazanko/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/kseniiamazanko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/kseniiamazanko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/kseniiamazanko/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/kseniiamazanko/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/kseniiamazanko/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.2/webdrivermanager-5.0.2.jar:/Users/kseniiamazanko/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/kseniiamazanko/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/kseniiamazanko/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java/3.2.11/docker-java-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-core/3.2.11/docker-java-core-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-api/3.2.11/docker-java-api-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/kseniiamazanko/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kseniiamazanko/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/kseniiamazanko/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/kseniiamazanko/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.11/docker-java-transport-httpclient5-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-transport/3.2.11/docker-java-transport-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/kseniiamazanko/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/kseniiamazanko/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/kseniiamazanko/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/kseniiamazanko/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/kseniiamazanko/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/kseniiamazanko/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/kseniiamazanko/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/kseniiamazanko/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/kseniiamazanko/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/kseniiamazanko/.m2/repository/me/jvt/cucumber/reporting-plugin/5.3.0/reporting-plugin-5.3.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/gherkin/18.0.0/gherkin-18.0.0.jar:/Users/kseniiamazanko/.m2/repository/net/masterthought/cucumber-reporting/5.6.0/cucumber-reporting-5.6.0.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/kseniiamazanko/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/kseniiamazanko/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/kseniiamazanko/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/kseniiamazanko/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/kseniiamazanko/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar:/Users/kseniiamazanko/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/kseniiamazanko/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/kseniiamazanko/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha4/slf4j-simple-2.0.0-alpha4.jar:/Users/kseniiamazanko/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/kseniiamazanko/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kseniiamazanko/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/kseniiamazanko/Desktop/cucumber-project-b23/target/surefire/surefirebooter3286625696101475618.jar /Users/kseniiamazanko/Desktop/cucumber-project-b23/target/surefire 2021-10-18T11-46-29_370-jvmRun1 surefire7162405337632873196tmp surefire_03520106108891250749tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/kseniiamazanko/Desktop/cucumber-project-b23/target/test-classes:/Users/kseniiamazanko/Desktop/cucumber-project-b23/target/classes:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-java/6.11.0/cucumber-java-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-core/6.11.0/cucumber-core-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-gherkin/6.11.0/cucumber-gherkin-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.11.0/cucumber-gherkin-messages-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-plugin/6.11.0/cucumber-plugin-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/docstring/6.11.0/docstring-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/kseniiamazanko/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/cucumber-junit/6.11.0/cucumber-junit-6.11.0.jar:/Users/kseniiamazanko/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/kseniiamazanko/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/kseniiamazanko/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/kseniiamazanko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kseniiamazanko/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/kseniiamazanko/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/kseniiamazanko/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/kseniiamazanko/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/kseniiamazanko/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/kseniiamazanko/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/kseniiamazanko/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/kseniiamazanko/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/kseniiamazanko/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.2/webdrivermanager-5.0.2.jar:/Users/kseniiamazanko/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/kseniiamazanko/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/kseniiamazanko/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java/3.2.11/docker-java-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-core/3.2.11/docker-java-core-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-api/3.2.11/docker-java-api-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/kseniiamazanko/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/kseniiamazanko/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/kseniiamazanko/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/kseniiamazanko/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.11/docker-java-transport-httpclient5-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/com/github/docker-java/docker-java-transport/3.2.11/docker-java-transport-3.2.11.jar:/Users/kseniiamazanko/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/kseniiamazanko/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/kseniiamazanko/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/kseniiamazanko/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/kseniiamazanko/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/kseniiamazanko/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/kseniiamazanko/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/kseniiamazanko/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/kseniiamazanko/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/kseniiamazanko/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/kseniiamazanko/.m2/repository/me/jvt/cucumber/reporting-plugin/5.3.0/reporting-plugin-5.3.0.jar:/Users/kseniiamazanko/.m2/repository/io/cucumber/gherkin/18.0.0/gherkin-18.0.0.jar:/Users/kseniiamazanko/.m2/repository/net/masterthought/cucumber-reporting/5.6.0/cucumber-reporting-5.6.0.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/kseniiamazanko/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/kseniiamazanko/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/kseniiamazanko/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/kseniiamazanko/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/kseniiamazanko/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/kseniiamazanko/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar:/Users/kseniiamazanko/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/kseniiamazanko/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/kseniiamazanko/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha4/slf4j-simple-2.0.0-alpha4.jar:/Users/kseniiamazanko/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/kseniiamazanko/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/kseniiamazanko/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kseniiamazanko"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/kseniiamazanko/Desktop/cucumber-project-b23"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/kseniiamazanko/Desktop/cucumber-project-b23/target/surefire/surefirebooter3286625696101475618.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="kseniiamazanko"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/kseniiamazanko/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xv/42s9z9p50bl9tc6d0qb97pz00000gn/T/"/>
+    <property name="idea.version" value="2021.1.2"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="/Users/kseniiamazanko/Desktop/cucumber-project-b23"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/kseniiamazanko/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="/Users/kseniiamazanko/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Add 2 numbers #1" classname="Calculator feature" time="0.224">
+    <system-out><![CDATA[
+@calculator @non_ui @addition
+Scenario: Add 2 numbers                &amp#27;[90m# features/calculator.feature:12&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m         &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 5 with 4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                  &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 9
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers #2" classname="Calculator feature" time="0.018">
+    <system-out><![CDATA[
+@calculator @non_ui @smoke
+Scenario: Add 2 numbers                &amp#27;[90m# features/calculator.feature:18&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m         &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 2 with 3
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                  &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 5
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers multiple example #1" classname="Calculator feature with data" time="0.019">
+    <system-out><![CDATA[
+@calculator @non_ui @wip
+Scenario Outline: Add 2 numbers multiple example &amp#27;[90m# features/calculator_with_data.feature:18&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m                   &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 3 with 4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                            &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 7
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m           &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers multiple example #2" classname="Calculator feature with data" time="0.012">
+    <system-out><![CDATA[
+@calculator @non_ui @wip
+Scenario Outline: Add 2 numbers multiple example &amp#27;[90m# features/calculator_with_data.feature:19&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m                   &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 4 with 7
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m                            &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 11
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m          &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers multiple example #3" classname="Calculator feature with data" time="0.01">
+    <system-out><![CDATA[
+@calculator @non_ui @wip
+Scenario Outline: Add 2 numbers multiple example &amp#27;[90m# features/calculator_with_data.feature:20&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m                   &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 6 with 11
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m                           &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 17
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m17&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m          &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers multiple example #4" classname="Calculator feature with data" time="0.015">
+    <system-out><![CDATA[
+@calculator @non_ui @wip
+Scenario Outline: Add 2 numbers multiple example &amp#27;[90m# features/calculator_with_data.feature:21&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m                   &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 13 with 4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m13&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                           &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 17
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m17&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m          &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers multiple example #5" classname="Calculator feature with data" time="0.01">
+    <system-out><![CDATA[
+@calculator @non_ui @wip
+Scenario Outline: Add 2 numbers multiple example &amp#27;[90m# features/calculator_with_data.feature:22&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m                   &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 41 with 7
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m41&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m                           &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 48
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m48&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m          &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add 2 numbers multiple example #6" classname="Calculator feature with data" time="0.011">
+    <system-out><![CDATA[
+@calculator @non_ui @wip
+Scenario Outline: Add 2 numbers multiple example &amp#27;[90m# features/calculator_with_data.feature:23&amp#27;[0m
+@Given _ calculator_ is_open
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcalculator app is open&amp#27;[0m                   &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.calculator_app_is_open()&amp#27;[0m
+@When I add 60 with 11
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m60&amp#27;[0m&amp#27;[32m with &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m                          &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_add_with(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+@Then _I should get result: 71
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get result &amp#27;[0m&amp#27;[32m&amp#27;[1m71&amp#27;[0m&amp#27;[32m displayed&amp#27;[0m          &amp#27;[90m# com.cydeo.step_definitions.CalculatorStepDefinition.i_should_get_result_displayed(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

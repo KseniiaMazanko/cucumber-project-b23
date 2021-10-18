@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cydeo.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.345 s - in com.cydeo.runner.TestRunner
